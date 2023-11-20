@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.toast-container{
+     display: none; 
+     text-align: center;
+}
+.toast{
+    display: flex;
+
+    background-color: rgb(23, 192, 60);
+
+    width:200px;
+
+     padding: 30px 0px; 
+    
+
+    position:absolute;
+
+    bottom: 0;
+    right:0;
+}
+#color{
+    background-color: red;
+    position: absolute;
+
+    bottom:15%;
+    right:0;
+
+    width:200px;
+
+    padding: 30px 10px;
+}
+p{
+    color:beige;
+    text-align: center;
+}
+.icon i{
+    padding:0 10px;
+    border-radius: 50%;
+    
+    font-size: 20px;
+
+    color:azure;
+}
+.icon{
+    padding: 0 5px;
+}
+.output1{
+    display: block;
+}
+
+.btn{
+    background-color: rgb(43, 198, 226);
+    border: 1px solid rgb(43, 198, 226);
+
+    padding:10px;
+
+    border-radius: 50px;
+}
+.btn1{
+    padding:10% 0;
+    color:white;
+}
